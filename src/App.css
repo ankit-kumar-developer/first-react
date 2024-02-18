@@ -1,0 +1,53 @@
+.App{
+  text-align: center;
+}
+
+/* header styling */
+h1{
+  margin: 12px;
+  display: inline;
+}
+
+a{
+  font-size: 22px;
+  color: rgb(210, 1, 210);
+  text-decoration: none;
+}
+
+.header{
+  color:white;
+  background-color: black;
+  margin: 0px;
+  padding: 5px;
+}
+
+/* movies styling */
+img{
+width: 200px;
+height: auto;
+border-radius: 10px;
+}
+
+.main{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+
+}
+
+.movie{
+  max-width: 200px;
+  max-height: auto;
+  background-color: rgb(255, 238, 238);
+  color: black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 3px gainsboro;
+  text-align: center;
+  margin: 25px;
+}
+
+.movie:hover{
+  cursor: pointer;
+}
